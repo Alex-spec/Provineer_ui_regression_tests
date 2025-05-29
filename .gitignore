@@ -1,0 +1,10 @@
+# Игнорируем кеш Python
+__pycache__/
+.pytest_cache
+tests_results/
+allure-report/
+*.log
+*.pyc
+*.pyo
+.env
+venv/
