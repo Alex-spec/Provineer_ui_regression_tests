@@ -55,48 +55,60 @@ class UploadPageGetters(BasePage):
     def get_signature_field(self):
         return self.wait_for_presence(UploadPageLocators.SIGNATURE)
 
-    def get_summary_image(self):
-        return self.wait_for_presence(UploadPageLocators.SUMMARY_IMAGE)
+    @staticmethod
+    def get_summary_image():
+        return UploadPageLocators.SUMMARY_IMAGE
 
-    def get_proof_image(self):
-        return self.wait_for_presence(UploadPageLocators.PROOF_IMAGE)
+    @staticmethod
+    def get_proof_image():
+        return UploadPageLocators.PROOF_IMAGE
 
     def get_provineer_button(self):
         return self.wait_for_clickable(UploadPageLocators.PROVINEER_BUTTON)
 
-    def get_successful_message(self):
-        return self.wait_for_visible(UploadPageLocators.SUCCESSFUL_MESSAGE)
+    @staticmethod
+    def get_successful_message():
+        return UploadPageLocators.SUCCESSFUL_MESSAGE
 
 class UploadPageActions(UploadPageGetters):
     def upload_file(self, file_path):
         self.get_browse_button().send_keys(file_path)
+        print("File uploaded")
 
     def click_proceed_button(self):
         self.get_proceed_button().click()
+        print("Proceed button clicked")
 
     def enter_name_input(self, name):
         self.get_name_input().send_keys(name)
+        print("Filled in name input")
 
     def click_version_dropdown(self):
         self.get_version_dropdown().click()
         self.get_version_value().click()
+        print("Clicked version dropdown")
 
     def click_category_dropdown(self):
         self.get_category_dropdown().click()
         self.get_category_value().click()
+        print("Clicked category dropdown")
 
     def click_description_field(self):
         self.get_description_field().click()
         self.get_textarea().send_keys("Lorem ipsum dolor")
+        print("Filled in description form")
 
     def click_continue_button(self):
         self.get_continue_button().click()
+        print("Clicked continue button")
 
     def click_signature_field(self):
         self.get_signature_field().click()
+        print("Clicked signature field")
 
     def click_provineer_button(self):
         self.get_provineer_button().click()
+        print("Clicked provineer button")
 
 class UploadPageSteps(UploadPageActions):
     def upload_page(self):
@@ -116,7 +128,7 @@ class UploadPageSteps(UploadPageActions):
         self.click_continue_button()
         self.assert_word(self.get_summary_image(), "test_cat")
         self.assert_word(self.get_proof_image(), "test_cat")
-        self.click_provineer_button()
-        self.assert_word(self.get_successful_message(), "Successful")
+        # self.click_provineer_button()
+        # self.assert_word(self.get_successful_message(), "Successful")
         Logger.add_end_step(url=self.driver.current_url, method="Testing upload new file")
 

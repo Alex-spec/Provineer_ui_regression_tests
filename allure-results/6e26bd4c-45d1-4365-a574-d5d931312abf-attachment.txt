@@ -1,0 +1,82 @@
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: tests/test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-05 13:59:37.488988
+Start method: User login
+
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Navigating to URL: https://provineer.com/login
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Sign In'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-05 13:59:38.577231
+End method: User login
+URL: https://provineer.com/login
+
+-----
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: tests/test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-05 13:59:38.577231
+Start method: Testing upload new file
+
+
+[1m[31mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1113763+63299]
+	GetHandleVerifier [0x0x11137a4+63364]
+	(No symbol) [0x0xf41113]
+	(No symbol) [0x0xf8987e]
+	(No symbol) [0x0xf89c1b]
+	(No symbol) [0x0xfd2212]
+	(No symbol) [0x0xfae5c4]
+	(No symbol) [0x0xfcfa4a]
+	(No symbol) [0x0xfae376]
+	(No symbol) [0x0xf7d6e0]
+	(No symbol) [0x0xf7e544]
+	GetHandleVerifier [0x0x136e033+2531347]
+	GetHandleVerifier [0x0x1369332+2511634]
+	GetHandleVerifier [0x0x1139eda+220858]
+	GetHandleVerifier [0x0x112a528+156936]
+	GetHandleVerifier [0x0x1130c5d+183357]
+	GetHandleVerifier [0x0x111b6c8+95912]
+	GetHandleVerifier [0x0x111b870+96336]
+	GetHandleVerifier [0x0x110664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Proceed'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <li> with text '1.0'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <li>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <li> with text 'robot'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <li>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <textarea>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Continue'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Continue'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <canvas> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <canvas>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Continue'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-05 13:59:41.544594
+End method: Testing upload new file
+URL: https://provineer.com/
+
+-----

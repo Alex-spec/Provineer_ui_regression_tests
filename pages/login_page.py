@@ -23,12 +23,15 @@ class LoginPageGetters(BasePage):
 class LoginPageActions(LoginPageGetters):
     def input_email(self, email):
         self.input_text(self.get_email(), email)
+        print("Filled in user email")
 
     def input_password(self, pwd):
         self.input_text(self.get_password(), pwd)
+        print("Filled in user password")
 
     def click_sign_in_button(self):
         self.click_element(self.get_sign_in_button())
+        print("Clicked sign in button")
 
 class LoginPageSteps(LoginPageActions):
     def login_page(self):

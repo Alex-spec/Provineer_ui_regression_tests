@@ -22,7 +22,7 @@ class DashboardPageLocators:
     INVITE_BUTTON = (By.XPATH, "//button[text()='Invite']")
     CLOSE_BUTTON = (By.XPATH, "(//button[@type='button'])[21]")
     LOG_OUT = (By.XPATH, "//span[text()='Log Out']")
-    LOGIN_BUTTON = (By.XPATH, "//button[text()='Login']")
+    LOGIN_BUTTON = (By.XPATH, "(//button[text()='Login'])[1]")
     SHARED_WITH_ME_BUTTON = (By.XPATH, "//span[text()='Shared with me']")
     SHARED_ASSERT_MESSAGE = (By.XPATH, "//p[@class='MuiTypography-root MuiTypography-body1 css-x1va7p']")
 
@@ -74,8 +74,9 @@ class DashboardPageGetters(BasePage):
     def get_shared_with_me(self):
         return self.wait_for_clickable(DashboardPageLocators.SHARED_WITH_ME_BUTTON)
 
-    def get_shared_assert_message(self):
-        return self.wait_for_clickable(DashboardPageLocators.SHARED_ASSERT_MESSAGE)
+    @staticmethod
+    def get_shared_assert_message():
+        return DashboardPageLocators.SHARED_ASSERT_MESSAGE
 
     # Check e-certificate feature getters
 
@@ -88,13 +89,18 @@ class DashboardPageGetters(BasePage):
 class DashboardPageActions(DashboardPageGetters):
     def click_user_avatar(self):
         self.get_user_avatar().click()
+        print("Clicked user avatar")
 
     def click_user_uploads(self):
         self.get_user_uploads().click()
+        print("User uploads")
+
 
     def click_test_file(self):
         self.get_test_file().click()
+        print("Clicked test file")
         self.get_share_button().click()
+        print("clicked share button")
 
     def set_share_options(self):
         self.get_share_dropdown().click()
@@ -104,30 +110,38 @@ class DashboardPageActions(DashboardPageGetters):
         self.get_proceed_button().click()
         self.get_share_dropdown().click()
         self.get_only_invited_options().click()
+        print("Cleared shared files")
 
     def fill_in_email_input(self, email):
         self.get_email_input().send_keys(email)
+        print("Filled in email form to share file")
 
     def click_invite_button(self):
         self.get_invite_button().click()
+        print("Invite button clicked")
 
     def press_escape_key(self):
         actions = ActionChains(self.driver)
         actions.send_keys(Keys.ESCAPE).perform()
+        print("Share form closed")
 
     def click_log_out_button(self):
         self.get_logout_button().click()
+        print("Clicked log out button")
 
     def click_login_button(self):
         self.get_login_button().click()
+        print("Clicked login button")
 
     def click_shared_with_me_button(self):
         self.get_shared_with_me().click()
+        print("Clicked shared with me button")
 
     # Check e-certificate feature actions
 
     def click_e_certificate_button(self):
         self.get_e_certificate_button().click()
+        print("Clicked e-certificate button")
 
 class DashboardPageSteps(DashboardPageActions):
     def __init__(self, driver):

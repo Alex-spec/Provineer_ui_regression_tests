@@ -1,0 +1,251 @@
+2025-06-05 13:50:59,812 - INFO - 
+-----
+Test: tests/test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-05 13:50:59.812418
+Start method: User login
+
+
+2025-06-05 13:50:59,812 - INFO - Navigating to URL: https://provineer.com/login
+2025-06-05 13:51:00,458 - INFO - Trying to input into <input>
+2025-06-05 13:51:00,496 - INFO - Trying to input into <input>
+2025-06-05 13:51:00,632 - INFO - Trying to input into <input>
+2025-06-05 13:51:00,694 - INFO - Trying to input into <input>
+2025-06-05 13:51:00,808 - INFO - Trying to click on <button> with text 'Sign In'
+2025-06-05 13:51:00,867 - INFO - Clicked on <button>
+2025-06-05 13:51:00,875 - INFO - End time: 2025-06-05 13:51:00.875373
+End method: User login
+URL: https://provineer.com/login
+
+-----
+
+2025-06-05 13:51:00,875 - INFO - 
+-----
+Test: tests/test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-05 13:51:00.875373
+Start method: Testing upload new file
+
+
+2025-06-05 13:51:00,890 - ERROR - Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1113763+63299]
+	GetHandleVerifier [0x0x11137a4+63364]
+	(No symbol) [0x0xf41113]
+	(No symbol) [0x0xf8987e]
+	(No symbol) [0x0xf89c1b]
+	(No symbol) [0x0xfd2212]
+	(No symbol) [0x0xfae5c4]
+	(No symbol) [0x0xfcfa4a]
+	(No symbol) [0x0xfae376]
+	(No symbol) [0x0xf7d6e0]
+	(No symbol) [0x0xf7e544]
+	GetHandleVerifier [0x0x136e033+2531347]
+	GetHandleVerifier [0x0x1369332+2511634]
+	GetHandleVerifier [0x0x1139eda+220858]
+	GetHandleVerifier [0x0x112a528+156936]
+	GetHandleVerifier [0x0x1130c5d+183357]
+	GetHandleVerifier [0x0x111b6c8+95912]
+	GetHandleVerifier [0x0x111b870+96336]
+	GetHandleVerifier [0x0x110664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+2025-06-05 13:51:01,561 - INFO - Trying to input into <input>
+2025-06-05 13:51:01,625 - INFO - Trying to click on <button> with text 'Proceed'
+2025-06-05 13:51:01,710 - INFO - Clicked on <button>
+2025-06-05 13:51:01,735 - INFO - Trying to input into <input>
+2025-06-05 13:51:01,808 - INFO - Trying to click on <div> with text 'No text'
+2025-06-05 13:51:01,874 - INFO - Clicked on <div>
+2025-06-05 13:51:02,446 - INFO - Trying to click on <li> with text '1.0'
+2025-06-05 13:51:02,492 - INFO - Clicked on <li>
+2025-06-05 13:51:02,514 - INFO - Trying to click on <div> with text 'No text'
+2025-06-05 13:51:02,844 - INFO - Clicked on <div>
+2025-06-05 13:51:02,874 - INFO - Trying to click on <li> with text 'robot'
+2025-06-05 13:51:02,941 - INFO - Clicked on <li>
+2025-06-05 13:51:02,959 - INFO - Trying to click on <div> with text 'No text'
+2025-06-05 13:51:03,285 - INFO - Clicked on <div>
+2025-06-05 13:51:03,291 - INFO - Trying to input into <textarea>
+2025-06-05 13:51:03,375 - INFO - Trying to click on <button> with text 'Continue'
+2025-06-05 13:51:03,443 - INFO - Clicked on <button>
+2025-06-05 13:51:03,448 - INFO - Trying to input into <input>
+2025-06-05 13:51:03,524 - INFO - Trying to click on <button> with text 'Continue'
+2025-06-05 13:51:03,559 - INFO - Clicked on <button>
+2025-06-05 13:51:03,576 - INFO - Trying to click on <canvas> with text 'No text'
+2025-06-05 13:51:03,664 - INFO - Clicked on <canvas>
+2025-06-05 13:51:03,694 - INFO - Trying to click on <button> with text 'Continue'
+2025-06-05 13:51:03,743 - INFO - Clicked on <button>
+2025-06-05 13:51:08,104 - INFO - 
+-----
+Test: tests/test_provineer.py::test_shared_feature (call)
+Start time: 2025-06-05 13:51:08.104618
+Start method: User login
+
+
+2025-06-05 13:51:08,104 - INFO - Navigating to URL: https://provineer.com/login
+2025-06-05 13:51:08,841 - INFO - Trying to input into <input>
+2025-06-05 13:51:08,877 - INFO - Trying to input into <input>
+2025-06-05 13:51:09,047 - INFO - Trying to input into <input>
+2025-06-05 13:51:09,075 - INFO - Trying to input into <input>
+2025-06-05 13:51:09,175 - INFO - Trying to click on <button> with text 'Sign In'
+2025-06-05 13:51:09,243 - INFO - Clicked on <button>
+2025-06-05 13:51:09,243 - INFO - End time: 2025-06-05 13:51:09.243324
+End method: User login
+URL: https://provineer.com/login
+
+-----
+
+2025-06-05 13:51:09,243 - INFO - 
+-----
+Test: tests/test_provineer.py::test_shared_feature (call)
+Start time: 2025-06-05 13:51:09.243324
+Start method: Testing share feature
+
+
+2025-06-05 13:51:09,259 - ERROR - Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='User Avatar']"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1113763+63299]
+	GetHandleVerifier [0x0x11137a4+63364]
+	(No symbol) [0x0xf41113]
+	(No symbol) [0x0xf8987e]
+	(No symbol) [0x0xf89c1b]
+	(No symbol) [0x0xfd2212]
+	(No symbol) [0x0xfae5c4]
+	(No symbol) [0x0xfcfa4a]
+	(No symbol) [0x0xfae376]
+	(No symbol) [0x0xf7d6e0]
+	(No symbol) [0x0xf7e544]
+	GetHandleVerifier [0x0x136e033+2531347]
+	GetHandleVerifier [0x0x1369332+2511634]
+	GetHandleVerifier [0x0x1139eda+220858]
+	GetHandleVerifier [0x0x112a528+156936]
+	GetHandleVerifier [0x0x1130c5d+183357]
+	GetHandleVerifier [0x0x111b6c8+95912]
+	GetHandleVerifier [0x0x111b870+96336]
+	GetHandleVerifier [0x0x110664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+2025-06-05 13:51:09,960 - INFO - Trying to click on <img> with text 'No text'
+2025-06-05 13:51:10,008 - INFO - Clicked on <img>
+2025-06-05 13:51:10,564 - INFO - Trying to click on <span> with text 'My uploads'
+2025-06-05 13:51:10,608 - INFO - Clicked on <span>
+2025-06-05 13:51:10,657 - ERROR - Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='Uploaded produce']"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1113763+63299]
+	GetHandleVerifier [0x0x11137a4+63364]
+	(No symbol) [0x0xf41113]
+	(No symbol) [0x0xf8987e]
+	(No symbol) [0x0xf89c1b]
+	(No symbol) [0x0xfd2212]
+	(No symbol) [0x0xfae5c4]
+	(No symbol) [0x0xfcfa4a]
+	(No symbol) [0x0xfae376]
+	(No symbol) [0x0xf7d6e0]
+	(No symbol) [0x0xf7e544]
+	GetHandleVerifier [0x0x136e033+2531347]
+	GetHandleVerifier [0x0x1369332+2511634]
+	GetHandleVerifier [0x0x1139eda+220858]
+	GetHandleVerifier [0x0x112a528+156936]
+	GetHandleVerifier [0x0x1130c5d+183357]
+	GetHandleVerifier [0x0x111b6c8+95912]
+	GetHandleVerifier [0x0x111b870+96336]
+	GetHandleVerifier [0x0x110664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+2025-06-05 13:51:11,440 - INFO - Trying to click on <img> with text 'No text'
+2025-06-05 13:51:11,486 - INFO - Clicked on <img>
+2025-06-05 13:51:11,496 - ERROR - Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Share']"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1113763+63299]
+	GetHandleVerifier [0x0x11137a4+63364]
+	(No symbol) [0x0xf41113]
+	(No symbol) [0x0xf8987e]
+	(No symbol) [0x0xf89c1b]
+	(No symbol) [0x0xfd2212]
+	(No symbol) [0x0xfae5c4]
+	(No symbol) [0x0xfcfa4a]
+	(No symbol) [0x0xfae376]
+	(No symbol) [0x0xf7d6e0]
+	(No symbol) [0x0xf7e544]
+	GetHandleVerifier [0x0x136e033+2531347]
+	GetHandleVerifier [0x0x1369332+2511634]
+	GetHandleVerifier [0x0x1139eda+220858]
+	GetHandleVerifier [0x0x112a528+156936]
+	GetHandleVerifier [0x0x1130c5d+183357]
+	GetHandleVerifier [0x0x111b6c8+95912]
+	GetHandleVerifier [0x0x111b870+96336]
+	GetHandleVerifier [0x0x110664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+2025-06-05 13:51:12,174 - INFO - Trying to click on <button> with text 'Share'
+2025-06-05 13:51:12,204 - INFO - Clicked on <button>
+2025-06-05 13:51:12,226 - ERROR - Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@role='combobox'])[2]"}
+  (Session info: chrome=137.0.7151.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1113763+63299]
+	GetHandleVerifier [0x0x11137a4+63364]
+	(No symbol) [0x0xf41113]
+	(No symbol) [0x0xf8987e]
+	(No symbol) [0x0xf89c1b]
+	(No symbol) [0x0xfd2212]
+	(No symbol) [0x0xfae5c4]
+	(No symbol) [0x0xfcfa4a]
+	(No symbol) [0x0xfae376]
+	(No symbol) [0x0xf7d6e0]
+	(No symbol) [0x0xf7e544]
+	GetHandleVerifier [0x0x136e033+2531347]
+	GetHandleVerifier [0x0x1369332+2511634]
+	GetHandleVerifier [0x0x1139eda+220858]
+	GetHandleVerifier [0x0x112a528+156936]
+	GetHandleVerifier [0x0x1130c5d+183357]
+	GetHandleVerifier [0x0x111b6c8+95912]
+	GetHandleVerifier [0x0x111b870+96336]
+	GetHandleVerifier [0x0x110664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+2025-06-05 13:51:12,905 - INFO - Trying to click on <div> with text 'Only people invited'
+2025-06-05 13:51:12,957 - INFO - Clicked on <div>
+2025-06-05 13:51:12,989 - INFO - Trying to click on <li> with text 'Anyone with the link'
+2025-06-05 13:51:13,048 - INFO - Clicked on <li>
+2025-06-05 13:51:13,075 - INFO - Trying to click on <div> with text 'Only people invited'
+2025-06-05 13:51:14,175 - ERROR - Exception occurred: Message: element click intercepted: Element <div tabindex="0" role="combobox" aria-controls=":rm:" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-1ashe4k">...</div> is not clickable at point (960, 344). Other element would receive the click: <div class="MuiBox-root css-uw1oi7">...</div>
+  (Session info: chrome=137.0.7151.56)
+Stacktrace:
+	GetHandleVerifier [0x0x1113763+63299]
+	GetHandleVerifier [0x0x11137a4+63364]
+	(No symbol) [0x0xf41113]
+	(No symbol) [0x0xf8fbb0]
+	(No symbol) [0x0xf8df6a]
+	(No symbol) [0x0xf8bad7]
+	(No symbol) [0x0xf8ada7]
+	(No symbol) [0x0xf7f445]
+	(No symbol) [0x0xfae57c]
+	(No symbol) [0x0xf7eed4]
+	(No symbol) [0x0xfae7f4]
+	(No symbol) [0x0xfcfa4a]
+	(No symbol) [0x0xfae376]
+	(No symbol) [0x0xf7d6e0]
+	(No symbol) [0x0xf7e544]
+	GetHandleVerifier [0x0x136e033+2531347]
+	GetHandleVerifier [0x0x1369332+2511634]
+	GetHandleVerifier [0x0x1139eda+220858]
+	GetHandleVerifier [0x0x112a528+156936]
+	GetHandleVerifier [0x0x1130c5d+183357]
+	GetHandleVerifier [0x0x111b6c8+95912]
+	GetHandleVerifier [0x0x111b870+96336]
+	GetHandleVerifier [0x0x110664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
