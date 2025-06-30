@@ -1,7 +1,7 @@
 import allure
-from Provineer_regression_tests.pages.login_page import LoginPageSteps
-from Provineer_regression_tests.pages.dashboard_page import DashboardPageSteps
-from Provineer_regression_tests.pages.upload_page import UploadPageSteps
+from pages.login_page import LoginPageSteps
+from pages.dashboard_page import DashboardPageSteps
+from pages.upload_page import UploadPageSteps
 
 @allure.description("Test upload new file")
 def test_upload_new_file(driver):
