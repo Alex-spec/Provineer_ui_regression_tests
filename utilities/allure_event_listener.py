@@ -1,7 +1,7 @@
 import allure
 from selenium.webdriver.support.events import AbstractEventListener
 from selenium.common.exceptions import StaleElementReferenceException
-from Provineer_regression_tests.utilities.logger import Logger
+from utilities.logger import Logger
 
 class AllureSeleniumEventListener(AbstractEventListener):
     def before_click(self, element, driver):
