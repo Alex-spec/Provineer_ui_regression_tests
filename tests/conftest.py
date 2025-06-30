@@ -6,8 +6,8 @@ import allure
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.events import EventFiringWebDriver
-from Provineer_regression_tests.utilities.logger import Logger
-from Provineer_regression_tests.utilities.allure_event_listener import AllureSeleniumEventListener
+from utilities.logger import Logger
+from utilities.allure_event_listener import AllureSeleniumEventListener
 
 @pytest.fixture(scope="function")
 def driver():
