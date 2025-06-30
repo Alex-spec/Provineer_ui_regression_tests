@@ -15,7 +15,8 @@ services:
       - selenium
     environment:
       - SELENIUM_REMOTE_URL=http://selenium:4444/wd/hub
-    command: pytest -v tests/ --alluredir=allure-results
+    command: sh -c "PYTHONPATH=/app pytest -v tests/ --alluredir=allure-results && allure generate allure-results -o allure-report --clean"
     volumes:
       - ./allure-results:/app/allure-results
       - ./allure-report:/app/allure-report
+

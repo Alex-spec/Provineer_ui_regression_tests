@@ -22,5 +22,7 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # Copy the project code
 COPY . .
 
+ENV PYTHONPATH=/app
+
 # Default: Run tests and generate Allure report
 CMD sh -c "pytest -v tests/ --alluredir=allure-results && allure generate allure-results -o allure-report --clean"
