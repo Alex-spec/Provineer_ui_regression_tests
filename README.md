@@ -69,10 +69,10 @@ provineer-regression-tests/
 ## 🧪 Example Output
 
 ```bash
-tests/test_clearbuy.py::test_products_section PASSED
-tests/test_clearbuy.py::test_users_section PASSED
+tests/test_provineer.py::test_proofs_and_certificates PASSED 
+tests/test_provineer.py::test_shared_feature PASSED   
 ...
-======================= 6 passed in 226.19s =========================
+============================== 3 passed in 32.50s ==============================
 ```
 
 Then open: `allure-report/index.html`
