@@ -1,0 +1,170 @@
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: test_provineer.py::test_proofs_and_certificates (call)
+Start time: 2025-06-26 11:50:54.376859
+Start method: User login
+
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Navigating to URL: https://provineer.com/login
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Sign In'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-26 11:50:55.596127
+End method: User login
+URL: https://provineer.com/login
+
+-----
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: test_provineer.py::test_proofs_and_certificates (call)
+Start time: 2025-06-26 11:50:55.596127
+Start method: Testing e-certificate
+
+
+[1m[31mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='User Avatar']"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x583b03+62899]
+	GetHandleVerifier [0x0x583b44+62964]
+	(No symbol) [0x0x3b10f3]
+	(No symbol) [0x0x3f980e]
+	(No symbol) [0x0x3f9bab]
+	(No symbol) [0x0x4425c2]
+	(No symbol) [0x0x41e554]
+	(No symbol) [0x0x43fd81]
+	(No symbol) [0x0x41e306]
+	(No symbol) [0x0x3ed670]
+	(No symbol) [0x0x3ee4e4]
+	GetHandleVerifier [0x0x7e4793+2556483]
+	GetHandleVerifier [0x0x7dfd02+2537394]
+	GetHandleVerifier [0x0x5aa2fa+220586]
+	GetHandleVerifier [0x0x59aae8+157080]
+	GetHandleVerifier [0x0x5a141d+184013]
+	GetHandleVerifier [0x0x58ba68+95512]
+	GetHandleVerifier [0x0x58bc10+95936]
+	GetHandleVerifier [0x0x576b5a+9738]
+	BaseThreadInitThunk [0x0x763b5d49+25]
+	RtlInitializeExceptionChain [0x0x77bbd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77bbd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <img> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <img>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <span> with text 'My uploads'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <span>
+[1m[31mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='Uploaded produce']"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x583b03+62899]
+	GetHandleVerifier [0x0x583b44+62964]
+	(No symbol) [0x0x3b10f3]
+	(No symbol) [0x0x3f980e]
+	(No symbol) [0x0x3f9bab]
+	(No symbol) [0x0x4425c2]
+	(No symbol) [0x0x41e554]
+	(No symbol) [0x0x43fd81]
+	(No symbol) [0x0x41e306]
+	(No symbol) [0x0x3ed670]
+	(No symbol) [0x0x3ee4e4]
+	GetHandleVerifier [0x0x7e4793+2556483]
+	GetHandleVerifier [0x0x7dfd02+2537394]
+	GetHandleVerifier [0x0x5aa2fa+220586]
+	GetHandleVerifier [0x0x59aae8+157080]
+	GetHandleVerifier [0x0x5a141d+184013]
+	GetHandleVerifier [0x0x58ba68+95512]
+	GetHandleVerifier [0x0x58bc10+95936]
+	GetHandleVerifier [0x0x576b5a+9738]
+	BaseThreadInitThunk [0x0x763b5d49+25]
+	RtlInitializeExceptionChain [0x0x77bbd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77bbd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <img> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <img>
+[1m[31mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='View E-Certificate']"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x583b03+62899]
+	GetHandleVerifier [0x0x583b44+62964]
+	(No symbol) [0x0x3b10f3]
+	(No symbol) [0x0x3f980e]
+	(No symbol) [0x0x3f9bab]
+	(No symbol) [0x0x4425c2]
+	(No symbol) [0x0x41e554]
+	(No symbol) [0x0x43fd81]
+	(No symbol) [0x0x41e306]
+	(No symbol) [0x0x3ed670]
+	(No symbol) [0x0x3ee4e4]
+	GetHandleVerifier [0x0x7e4793+2556483]
+	GetHandleVerifier [0x0x7dfd02+2537394]
+	GetHandleVerifier [0x0x5aa2fa+220586]
+	GetHandleVerifier [0x0x59aae8+157080]
+	GetHandleVerifier [0x0x5a141d+184013]
+	GetHandleVerifier [0x0x58ba68+95512]
+	GetHandleVerifier [0x0x58bc10+95936]
+	GetHandleVerifier [0x0x576b5a+9738]
+	BaseThreadInitThunk [0x0x763b5d49+25]
+	RtlInitializeExceptionChain [0x0x77bbd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77bbd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'View E-Certificate'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[1m[31mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//canvas[@class='react-pdf__Page__canvas']"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x583b03+62899]
+	GetHandleVerifier [0x0x583b44+62964]
+	(No symbol) [0x0x3b10f3]
+	(No symbol) [0x0x3f980e]
+	(No symbol) [0x0x3f9bab]
+	(No symbol) [0x0x4425c2]
+	(No symbol) [0x0x41e554]
+	(No symbol) [0x0x43fd81]
+	(No symbol) [0x0x41e306]
+	(No symbol) [0x0x3ed670]
+	(No symbol) [0x0x3ee4e4]
+	GetHandleVerifier [0x0x7e4793+2556483]
+	GetHandleVerifier [0x0x7dfd02+2537394]
+	GetHandleVerifier [0x0x5aa2fa+220586]
+	GetHandleVerifier [0x0x59aae8+157080]
+	GetHandleVerifier [0x0x5a141d+184013]
+	GetHandleVerifier [0x0x58ba68+95512]
+	GetHandleVerifier [0x0x58bc10+95936]
+	GetHandleVerifier [0x0x576b5a+9738]
+	BaseThreadInitThunk [0x0x763b5d49+25]
+	RtlInitializeExceptionChain [0x0x77bbd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77bbd021+561]
+
+[1m[31mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//canvas[@class='react-pdf__Page__canvas']"}
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x583b03+62899]
+	GetHandleVerifier [0x0x583b44+62964]
+	(No symbol) [0x0x3b10f3]
+	(No symbol) [0x0x3f980e]
+	(No symbol) [0x0x3f9bab]
+	(No symbol) [0x0x4425c2]
+	(No symbol) [0x0x41e554]
+	(No symbol) [0x0x43fd81]
+	(No symbol) [0x0x41e306]
+	(No symbol) [0x0x3ed670]
+	(No symbol) [0x0x3ee4e4]
+	GetHandleVerifier [0x0x7e4793+2556483]
+	GetHandleVerifier [0x0x7dfd02+2537394]
+	GetHandleVerifier [0x0x5aa2fa+220586]
+	GetHandleVerifier [0x0x59aae8+157080]
+	GetHandleVerifier [0x0x5a141d+184013]
+	GetHandleVerifier [0x0x58ba68+95512]
+	GetHandleVerifier [0x0x58bc10+95936]
+	GetHandleVerifier [0x0x576b5a+9738]
+	BaseThreadInitThunk [0x0x763b5d49+25]
+	RtlInitializeExceptionChain [0x0x77bbd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77bbd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-26 11:51:00.084941
+End method: Testing e-certificate
+URL: https://provineer.com/dashboard/33a79370-91e8-4a4b-b9a2-d8af527b7191/ecertificate
+
+-----

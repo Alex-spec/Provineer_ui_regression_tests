@@ -1,0 +1,296 @@
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: test_provineer.py::test_shared_feature (call)
+Start time: 2025-06-06 09:57:31.354722
+Start method: User login
+
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Navigating to URL: https://provineer.com/login
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Sign In'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-06 09:57:32.988061
+End method: User login
+URL: https://provineer.com/login
+
+-----
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: test_provineer.py::test_shared_feature (call)
+Start time: 2025-06-06 09:57:32.988061
+Start method: Testing share feature
+
+
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='User Avatar']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <img> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <img>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <span> with text 'My uploads'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <span>
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='Uploaded produce']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <img> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <img>
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Share']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Share'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@role='combobox'])[2]"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'Only people invited'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <li> with text 'Anyone with the link'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <li>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'Only people invited'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <li> with text 'Private (Only me)'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <li>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Proceed'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'Anyone with the link'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <li> with text 'Only people invited'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <li>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Invite'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <img> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <img>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <span> with text 'Log Out'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <span>
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[text()='Login'])[1]"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Login'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: test_provineer.py::test_shared_feature (call)
+Start time: 2025-06-06 09:57:39.945813
+Start method: User to test share feature, login
+
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Sign In'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-06 09:57:40.265558
+End method: User to test share feature, login
+URL: https://provineer.com/login
+
+-----
+
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='User Avatar']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <img> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <img>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <span> with text 'My uploads'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <span>
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Shared with me']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <span> with text 'Shared with me'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <span>
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='MuiTypography-root MuiTypography-body1 css-x1va7p']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-06 09:57:42.657662
+End method: Testing share feature
+URL: https://provineer.com/shared
+
+-----

@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  selenium:
+    image: selenium/standalone-chrome:latest
+    ports:
+      - "4444:4444"
+    shm_size: 2g
+
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile.tests
+    depends_on:
+      - selenium
+    environment:
+      - SELENIUM_REMOTE_URL=http://selenium:4444/wd/hub
+    command: pytest -v tests/ --alluredir=allure-results
+    volumes:
+      - ./allure-results:/app/allure-results
+      - ./allure-report:/app/allure-report

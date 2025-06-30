@@ -1,0 +1,8 @@
+Filled in user email
+Filled in user password
+Clicked sign in button
+Current URL after login: https://provineer.com/login
+Clicked user avatar
+User uploads
+Clicked test file
+clicked share button

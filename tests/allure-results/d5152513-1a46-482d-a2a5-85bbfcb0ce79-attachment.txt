@@ -1,0 +1,109 @@
+2025-06-09 12:06:35,726 - INFO - 
+-----
+Test: test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-09 12:06:35.726207
+Start method: User login
+
+
+2025-06-09 12:06:35,726 - INFO - Navigating to URL: https://provineer.com/login
+2025-06-09 12:06:36,706 - INFO - Trying to input into <input>
+2025-06-09 12:06:36,823 - INFO - Trying to input into <input>
+2025-06-09 12:06:36,935 - INFO - Trying to input into <input>
+2025-06-09 12:06:36,967 - INFO - Trying to input into <input>
+2025-06-09 12:06:37,085 - INFO - Trying to click on <button> with text 'Sign In'
+2025-06-09 12:06:37,167 - INFO - Clicked on <button>
+2025-06-09 12:06:37,169 - INFO - End time: 2025-06-09 12:06:37.169211
+End method: User login
+URL: https://provineer.com/login
+
+-----
+
+2025-06-09 12:06:37,169 - INFO - 
+-----
+Test: test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-09 12:06:37.169211
+Start method: Testing upload new file
+
+
+2025-06-09 12:06:37,185 - ERROR - Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0xde3763+63299]
+	GetHandleVerifier [0x0xde37a4+63364]
+	(No symbol) [0x0xc11113]
+	(No symbol) [0x0xc5987e]
+	(No symbol) [0x0xc59c1b]
+	(No symbol) [0x0xca2212]
+	(No symbol) [0x0xc7e5c4]
+	(No symbol) [0x0xc9fa4a]
+	(No symbol) [0x0xc7e376]
+	(No symbol) [0x0xc4d6e0]
+	(No symbol) [0x0xc4e544]
+	GetHandleVerifier [0x0x103e033+2531347]
+	GetHandleVerifier [0x0x1039332+2511634]
+	GetHandleVerifier [0x0xe09eda+220858]
+	GetHandleVerifier [0x0xdfa528+156936]
+	GetHandleVerifier [0x0xe00c5d+183357]
+	GetHandleVerifier [0x0xdeb6c8+95912]
+	GetHandleVerifier [0x0xdeb870+96336]
+	GetHandleVerifier [0x0xdd664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+2025-06-09 12:06:37,837 - ERROR - Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0xde3763+63299]
+	GetHandleVerifier [0x0xde37a4+63364]
+	(No symbol) [0x0xc11113]
+	(No symbol) [0x0xc5987e]
+	(No symbol) [0x0xc59c1b]
+	(No symbol) [0x0xca2212]
+	(No symbol) [0x0xc7e5c4]
+	(No symbol) [0x0xc9fa4a]
+	(No symbol) [0x0xc7e376]
+	(No symbol) [0x0xc4d6e0]
+	(No symbol) [0x0xc4e544]
+	GetHandleVerifier [0x0x103e033+2531347]
+	GetHandleVerifier [0x0x1039332+2511634]
+	GetHandleVerifier [0x0xe09eda+220858]
+	GetHandleVerifier [0x0xdfa528+156936]
+	GetHandleVerifier [0x0xe00c5d+183357]
+	GetHandleVerifier [0x0xdeb6c8+95912]
+	GetHandleVerifier [0x0xdeb870+96336]
+	GetHandleVerifier [0x0xdd664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+2025-06-09 12:06:38,462 - INFO - Trying to input into <input>
+2025-06-09 12:06:38,537 - INFO - Trying to click on <button> with text 'Proceed'
+2025-06-09 12:06:38,616 - INFO - Clicked on <button>
+2025-06-09 12:06:38,637 - INFO - Trying to input into <input>
+2025-06-09 12:06:38,712 - INFO - Trying to click on <div> with text 'No text'
+2025-06-09 12:06:38,768 - INFO - Clicked on <div>
+2025-06-09 12:06:39,325 - INFO - Trying to click on <li> with text '1.0'
+2025-06-09 12:06:39,371 - INFO - Clicked on <li>
+2025-06-09 12:06:39,402 - INFO - Trying to click on <div> with text 'No text'
+2025-06-09 12:06:39,715 - INFO - Clicked on <div>
+2025-06-09 12:06:39,752 - INFO - Trying to click on <li> with text 'robot'
+2025-06-09 12:06:39,802 - INFO - Clicked on <li>
+2025-06-09 12:06:39,820 - INFO - Trying to click on <div> with text 'No text'
+2025-06-09 12:06:40,089 - INFO - Clicked on <div>
+2025-06-09 12:06:40,102 - INFO - Trying to input into <textarea>
+2025-06-09 12:06:40,185 - INFO - Trying to click on <button> with text 'Continue'
+2025-06-09 12:06:40,236 - INFO - Clicked on <button>
+2025-06-09 12:06:40,252 - INFO - Trying to input into <input>
+2025-06-09 12:06:40,323 - INFO - Trying to click on <button> with text 'Continue'
+2025-06-09 12:06:40,368 - INFO - Clicked on <button>
+2025-06-09 12:06:40,384 - INFO - Trying to click on <canvas> with text 'No text'
+2025-06-09 12:06:40,470 - INFO - Clicked on <canvas>
+2025-06-09 12:06:40,503 - INFO - Trying to click on <button> with text 'Continue'
+2025-06-09 12:06:40,535 - INFO - Clicked on <button>
+2025-06-09 12:06:40,594 - INFO - End time: 2025-06-09 12:06:40.594346
+End method: Testing upload new file
+URL: https://provineer.com/
+
+-----
+

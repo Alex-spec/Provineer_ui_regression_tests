@@ -1,0 +1,108 @@
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-06 09:57:17.067129
+Start method: User login
+
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Navigating to URL: https://provineer.com/login
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Sign In'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-06 09:57:18.859771
+End method: User login
+URL: https://provineer.com/login
+
+-----
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 
+-----
+Test: test_provineer.py::test_upload_new_file (call)
+Start time: 2025-06-06 09:57:18.859771
+Start method: Testing upload new file
+
+
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[31m[1mERROR   [0m ProvineerLogger:logger.py:49 Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
+  (Session info: chrome=137.0.7151.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x1103763+63299]
+	GetHandleVerifier [0x0x11037a4+63364]
+	(No symbol) [0x0xf31113]
+	(No symbol) [0x0xf7987e]
+	(No symbol) [0x0xf79c1b]
+	(No symbol) [0x0xfc2212]
+	(No symbol) [0x0xf9e5c4]
+	(No symbol) [0x0xfbfa4a]
+	(No symbol) [0x0xf9e376]
+	(No symbol) [0x0xf6d6e0]
+	(No symbol) [0x0xf6e544]
+	GetHandleVerifier [0x0x135e033+2531347]
+	GetHandleVerifier [0x0x1359332+2511634]
+	GetHandleVerifier [0x0x1129eda+220858]
+	GetHandleVerifier [0x0x111a528+156936]
+	GetHandleVerifier [0x0x1120c5d+183357]
+	GetHandleVerifier [0x0x110b6c8+95912]
+	GetHandleVerifier [0x0x110b870+96336]
+	GetHandleVerifier [0x0x10f664a+9770]
+	BaseThreadInitThunk [0x0x760a5d49+25]
+	RtlInitializeExceptionChain [0x0x772dd09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772dd021+561]
+
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Proceed'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <li> with text '1.0'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <li>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <li> with text 'robot'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <li>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <div> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <div>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <textarea>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Continue'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to input into <input>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Continue'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <canvas> with text 'No text'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <canvas>
+[32mINFO    [0m ProvineerLogger:logger.py:44 Trying to click on <button> with text 'Continue'
+[32mINFO    [0m ProvineerLogger:logger.py:44 Clicked on <button>
+[32mINFO    [0m ProvineerLogger:logger.py:44 End time: 2025-06-06 09:57:22.965593
+End method: Testing upload new file
+URL: https://provineer.com/
+
+-----

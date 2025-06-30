@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Required utilities for downloading and unpacking Allure CLI
+RUN apt-get update && apt-get install -y \
+    wget \
+    default-jre \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Installing Allure CLI (download and add to PATH)
+RUN wget https://github.com/allure-framework/allure2/releases/download/2.27.0/allure-2.27.0.tgz && \
+    tar -xzf allure-2.27.0.tgz -C /opt/ && \
+    ln -s /opt/allure-2.27.0/bin/allure /usr/bin/allure && \
+    rm allure-2.27.0.tgz
+
+# Installing Python Dependencies
+COPY requirements.txt .
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+# Copy the project code
+COPY . .
+
+# Default: Run tests and generate Allure report
+CMD sh -c "pytest -v tests/ --alluredir=allure-results && allure generate allure-results -o allure-report --clean"
