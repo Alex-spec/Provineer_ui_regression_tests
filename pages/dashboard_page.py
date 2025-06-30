@@ -1,12 +1,11 @@
-import time
+import allure
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from Provineer_regression_tests.base.base_methods import BasePage
-from Provineer_regression_tests.pages.login_page import LoginPageSteps
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-from Provineer_regression_tests.utilities.logger import Logger
-import allure
+
+from base.base_methods import BasePage
+from pages.login_page import LoginPageSteps
+from utilities.logger import Logger
 
 class DashboardPageLocators:
     AVATAR = (By.XPATH, "//img[@alt='User Avatar']")

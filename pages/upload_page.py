@@ -1,8 +1,7 @@
+from base.base_methods import BasePage
 from selenium.webdriver.common.by import By
-from Provineer_regression_tests.base.base_methods import BasePage
-from Provineer_regression_tests.utilities.logger import Logger
+from utilities.logger import Logger
 import allure
-
 
 class UploadPageLocators:
     UPLOAD_FILE = (By.XPATH, "//input[@type='file']")

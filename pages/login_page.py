@@ -1,9 +1,7 @@
-from Provineer_regression_tests.base.base_methods import BasePage
+from base.base_methods import BasePage
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from Provineer_regression_tests.utilities.logger import Logger
+from utilities.logger import Logger
 import allure
-
 
 class LoginPageLocators:
     EMAIL = (By.XPATH, "(//input[@type='email'])[1]")
