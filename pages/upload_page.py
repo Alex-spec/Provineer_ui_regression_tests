@@ -113,7 +113,7 @@ class UploadPageSteps(UploadPageActions):
     def upload_page(self):
         with allure.step("Testing upload new file"):
             Logger.add_start_step(method="Testing upload new file")
-        file_path = "C:\\Users\\PC\\PycharmProjects\\pythonProject\\Provineer_regression_tests\\files_to_upload\\test_cat.jpg"
+        file_path = "/app/files_to_upload/test_cat.jpg"
         self.upload_file(file_path)
         self.click_proceed_button()
         self.enter_name_input("Test")
