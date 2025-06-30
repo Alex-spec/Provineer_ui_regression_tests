@@ -1,9 +1,0 @@
-Filled in user email
-Filled in user password
-Clicked sign in button
-Current URL after login: https://provineer.com/login
-Clicked user avatar
-User uploads
-Clicked e-certificate button
-Page scrolled down by 300 pixels
-Screenshot saved to screen\screenshot.png
